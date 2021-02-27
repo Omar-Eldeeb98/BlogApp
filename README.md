@@ -1,5 +1,5 @@
 # BlogApp
-firebse , authentication , storage , realTime .....
+Firebse , Authentication , Storage , RealTime .....
 # Ui
 <img src = "Images/1.jpg" width ="100" heigh = "300">,
 <img src = "Images/2.jpg" width ="100" heigh = "300">,
