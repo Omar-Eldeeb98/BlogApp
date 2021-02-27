@@ -24,8 +24,10 @@ public class CreateAccount extends AppCompatActivity {
     private EditText email;
     private EditText password;
     private Button createAccountBtn;
+
     private DatabaseReference mDatabaseReference;
     private FirebaseDatabase mDatabase;
+
     private FirebaseAuth mAuth;
     private ProgressDialog mProgressDialog;
 
@@ -38,7 +40,7 @@ public class CreateAccount extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance();
         mDatabaseReference = mDatabase.getReference().child( "MUsers" );
 
-        mAuth = FirebaseAuth.getInstance(  );
+        mAuth = FirebaseAuth.getInstance();
 
         mProgressDialog = new ProgressDialog( this );
 

@@ -25,8 +25,9 @@
             android:cropToPadding="false"
             android:scaleType="centerCrop"
             android:src="@drawable/upload"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"/>
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="200dp"/>
 
         <TextView
             android:id="@+id/postTitleList"

@@ -146,6 +146,7 @@ public class AddPostActivity extends AppCompatActivity {
                             dataToSave.put( "userId" , mUser.getUid());
 
 
+
                             newPost.setValue( dataToSave );
                             mProgress.dismiss();
                             startActivity( new Intent( AddPostActivity.this , PostListActivity.class ) );
